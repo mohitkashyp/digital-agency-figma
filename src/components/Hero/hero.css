@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+.hero {
+  display: flex;
+  min-height: 740px;
+  background: #016170;
+  color: white;
+  justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+
+  }
+  
+.title {
+  font-family: "Lora", serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 98px;
+  letter-spacing: 0.02em;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.selection {
+    border: 2px solid yellow;
+    padding: 0.5rem;
+}
+.sub-title {
+    display: block;
+    margin: 0 auto;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+.shape{
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}

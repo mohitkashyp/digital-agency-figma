@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    height: 100px;
+    background: #016170;
+    color: white;
+    border-bottom: 2px solid white;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    
+    margin-left: 100px;
+}
+.logo img{
+    min-width: 75px;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+}

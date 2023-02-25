@@ -1,0 +1,81 @@
+.service {
+  padding: 80px 80px;
+  background: #ebe2d9;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+.v-shack-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+.v-shack-left .title {
+  font-family: "Lora", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.v-shack-right {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+.h-stack-top,
+.h-stack-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  width: 100%;
+}
+.service-card {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 42px 16px;
+  width: 50%;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #020e10;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+.service-card .count {
+  position: relative;
+  padding: 4px 8px;
+  gap: 8px;
+  width: 43px;
+  height: 40px;
+  left: -94px;
+  top: -58px;
+
+  /* Cream */
+
+  background: #ebe2d9;
+}
+.service-card .card-title {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.service-card .description {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
