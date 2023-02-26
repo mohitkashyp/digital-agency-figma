@@ -20,7 +20,7 @@ export const IndividualStats = (props) => {
         bgcolor: "#020E10",
         py: "1rem",
       }}
-      xs={6}
+      xs={12}
       md={3}
       lg={3}
       spacing={2}  

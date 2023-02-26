@@ -1,13 +1,23 @@
-
-import {Routes, Route} from "react-router-dom"
-import { Test } from "./Test";
+import Blog from "./Blog/Blog";
+import Footer from "./Footer/Footer";
+import { Header } from "./Header";
+import HeroNew from "./HeroNew/HeroNew";
+import ServicesNew from "./Service/ServicesNew";
+import Stats from "./Stats/Stats";
+import Testimonial from "./Testimonial/Testimonial";
+import Work from "./Work/Work";
 
 function Home() {
-  
-  
   return (
     <>
-   <Test/>
+      <Header/>
+      <HeroNew />
+      <ServicesNew/>
+      <Stats />
+      <Work />
+      <Testimonial />
+      <Blog/>
+      <Footer/>
     </>
   );
 }

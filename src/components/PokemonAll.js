@@ -25,28 +25,6 @@ function PokemonAll() {
       <Service/>
       <Stats/>
       <Work/>
-      <Box
-        sx={{
-          display: "flex",
-          flexWrap: "wrap",
-          p: 1,
-          m: 1,
-          bgcolor: "background.paper",
-          borderRadius: 1,
-        }}
-      >
-        {pokemonData.map((pokemonData, idx) => (
-            
-            
-
-          <CardWithTitle
-            title={pokemonData.name}
-            link={`/${idx+1}`}
-            content={"loreum ipsum data to be shown here"}
-            />
-
-        ))}
-      </Box>
     </div>
   );
 }
